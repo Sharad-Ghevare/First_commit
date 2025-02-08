@@ -1,0 +1,20 @@
+How to push the code in Git hub
+
+The process of sending Code from eclipse to GIT local repository daily is called as Commit.
+And The process of sending Code from GIT local repository to remote GIT HUB repository is called as Push.
+
+
+git config --global user.name "yourname"
+git config --global user.email "your email"
+git init
+Git status
+git add *
+git status
+git commit -m "First commit"
+git remote add origin "your remote repository url"
+git push origin master
+
+If you did changes in Existing Code use below commands
+git add *
+git commit -m "second commit"
+git push origin master
