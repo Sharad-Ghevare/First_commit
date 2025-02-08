@@ -1,0 +1,379 @@
+About Dataset
+
+Supply chain analytics is a valuable part of data-driven decision-making in various industries such as manufacturing, retail, healthcare, and logistics. It is the process of collecting, analyzing and interpreting data related to the movement of products and services from suppliers to customers.
+
+Here is a dataset we collected from a Fashion and Beauty startup. The dataset is based on the supply chain of Makeup products. Below are all the features in the dataset:
+
+Product Type
+SKU
+Price
+Availability
+Number of products sold
+Revenue generated
+Customer demographics
+Stock levels
+Lead times
+Order quantities
+Shipping times
+Shipping carriers
+Shipping costs
+Supplier name
+Location
+Lead time
+Production volumes
+Manufacturing lead time
+Manufacturing costs
+Inspection results
+Defect rates
+Transportation modes
+Routes
+Costs
+
+This dataset from the Fashion and Beauty startup provides a rich collection of features that can be used to perform a variety of supply chain analytics. Here's how these features can be leveraged for analysis and decision-making:
+
+### 1. **Product Type & SKU**
+   - **Analysis**: You can segment sales, stock, and demand by product type (e.g., foundation, lipstick, mascara, etc.) or SKU. This allows the company to identify which products are high-demand and which are underperforming.
+   - **Decision-making**: Helps in inventory planning and optimizing stock levels based on product demand.
+
+### 2. **Price**
+   - **Analysis**: Price elasticity analysis—how changes in price affect sales volumes.
+   - **Decision-making**: Pricing strategy optimization based on demand sensitivity, competitive pricing, and profit margins.
+
+### 3. **Availability**
+   - **Analysis**: Measures product availability in stock at different stages in the supply chain.
+   - **Decision-making**: Helps identify stockouts or excess inventory situations, and make decisions on how to improve replenishment or reduce overstock.
+
+### 4. **Number of Products Sold**
+   - **Analysis**: Sales performance metrics for each product.
+   - **Decision-making**: Analyzing product sales to make data-driven decisions on promotional strategies, discontinuing products, or boosting production for high-demand products.
+
+### 5. **Revenue Generated**
+   - **Analysis**: Revenue per product type, SKU, or customer demographic.
+   - **Decision-making**: Helps in identifying the most profitable products and target customer segments, aiding in strategic sales and marketing.
+
+### 6. **Customer Demographics**
+   - **Analysis**: Understand which customer segments (age, gender, location, income level) are buying specific products.
+   - **Decision-making**: Personalized marketing, inventory management, and product design targeted to specific demographic groups.
+
+### 7. **Stock Levels**
+   - **Analysis**: Stock levels at various points in the supply chain, including warehouses and retail locations.
+   - **Decision-making**: Optimize stock levels to avoid both stockouts and overstock situations. Use for demand forecasting and inventory optimization.
+
+### 8. **Lead Times**
+   - **Analysis**: The time it takes for suppliers to deliver products, and the internal processing times (from order to delivery).
+   - **Decision-making**: Identifying bottlenecks in the supply chain and improving order fulfillment efficiency.
+
+### 9. **Order Quantities**
+   - **Analysis**: Analysis of how many units of products are ordered at once by customers or retailers.
+   - **Decision-making**: Helps in production planning and managing inventory turnover rates.
+
+### 10. **Shipping Times**
+   - **Analysis**: Time taken for products to be shipped from the warehouse to the customer.
+   - **Decision-making**: Optimizing logistics strategies and identifying delays or inefficiencies in the supply chain.
+
+### 11. **Shipping Carriers**
+   - **Analysis**: Performance of different shipping carriers in terms of delivery times, cost, and reliability.
+   - **Decision-making**: Helps in selecting the most cost-effective and reliable carriers for shipping.
+
+### 12. **Shipping Costs**
+   - **Analysis**: Breakdown of costs associated with shipping, including fuel surcharges, packaging, and delivery fees.
+   - **Decision-making**: Cost optimization in logistics, potentially switching carriers or renegotiating contracts to reduce shipping costs.
+
+### 13. **Supplier Name & Location**
+   - **Analysis**: Supplier performance in terms of on-time delivery, cost-effectiveness, and product quality.
+   - **Decision-making**: Helps assess supplier reliability and make decisions on supplier diversification or sourcing strategies. Location data can also help in optimizing transportation routes.
+
+### 14. **Production Volumes**
+   - **Analysis**: The volume of makeup products produced by the supplier or manufacturer over time.
+   - **Decision-making**: Helps identify production bottlenecks or underutilized capacity. This data is crucial for balancing supply with demand.
+
+### 15. **Manufacturing Lead Time**
+   - **Analysis**: The time it takes for manufacturing to complete production from order placement to finished goods.
+   - **Decision-making**: Helps identify inefficiencies in manufacturing, especially if lead times are longer than expected, which impacts overall supply chain performance.
+
+### 16. **Manufacturing Costs**
+   - **Analysis**: Costs associated with producing the makeup products.
+   - **Decision-making**: Helps assess cost-effectiveness, and identify areas where production processes can be optimized to reduce costs or improve quality.
+
+### 17. **Inspection Results & Defect Rates**
+   - **Analysis**: Data related to product quality and defect rates during inspections.
+   - **Decision-making**: Helps identify issues in the production process that could affect product quality, leading to potential product recalls or customer dissatisfaction. Helps in quality control improvements.
+
+### 18. **Transportation Modes**
+   - **Analysis**: Types of transportation used for shipping products (e.g., air, sea, road, rail).
+   - **Decision-making**: Helps in choosing the most cost-effective and efficient transportation methods based on product type, cost, and delivery time requirements.
+
+### 19. **Routes**
+   - **Analysis**: Identifying the routes used to deliver products from the warehouse to the customer or retailer.
+   - **Decision-making**: Helps optimize logistics routes for cost, delivery time, and efficiency. Identifies potential delays caused by route inefficiencies.
+
+### 20. **Costs**
+   - **Analysis**: A comprehensive look at all supply chain-related costs (e.g., manufacturing, shipping, warehousing, inspection).
+   - **Decision-making**: Key for cost optimization, pricing strategy, and overall profitability. Helps identify areas where cost-saving initiatives can be implemented.
+
+---
+
+### Suggested Analytical Approaches
+
+1. **Demand Forecasting**:
+   - Use historical data on **sales**, **stock levels**, and **customer demographics** to forecast demand for each product type and SKU. This can help optimize inventory and manufacturing schedules.
+
+2. **Supply Chain Optimization**:
+   - Analyze **lead times**, **shipping costs**, and **production volumes** to optimize the entire supply chain from procurement to customer delivery. Techniques like Linear Programming or Simulation could help minimize delays and costs.
+
+3. **Cost-Benefit Analysis**:
+   - Look at **manufacturing costs**, **shipping costs**, and **defect rates** to identify areas where supply chain costs can be reduced while maintaining product quality.
+
+4. **Quality Control**:
+   - Use **inspection results** and **defect rates** to focus on quality control initiatives and reduce defects during production, which can improve customer satisfaction and reduce return rates.
+
+5. **Segmentation Analysis**:
+   - Analyze **customer demographics** in combination with **revenue generated** and **sales data** to understand which customer segments are most profitable and tailor marketing and supply chain strategies accordingly.
+
+6. **Risk Management**:
+   - Use **supplier location** and **shipping carriers** data to assess supply chain risks, such as disruptions due to geographic issues, and identify alternative suppliers or routes.
+
+7. **Inventory Optimization**:
+   - With **stock levels** and **order quantities**, apply inventory management models like EOQ (Economic Order Quantity) to minimize stockouts and reduce overstocking.
+
+By analyzing these features, the company can improve its supply chain operations, reduce costs, enhance customer satisfaction, and ultimately improve profitability. The combination of supply chain data and analytics allows for smarter decision-making across the entire supply chain.
+
+50 problem Statement
+
+Here’s a list of 50 problem statements for a Power BI project that cover various aspects, including visualization, Power Query, and DAX. These can be tailored to different industries and business needs.
+
+### **Data Transformation & Power Query Problems:**
+
+1. **Data Cleaning**: Clean a dataset with missing values, duplicate rows, and inconsistent formats for customer names and addresses.
+2. **Merge Multiple Data Sources**: Combine sales data from multiple CSV files, each containing data for a different region, into a unified dataset.
+3. **Date Hierarchy Creation**: Transform a flat dataset with sales transactions into a date hierarchy (Year, Quarter, Month, Day).
+4. **Change Data Type**: Correct mismatched data types (e.g., converting text fields to numbers or date formats) in a large product catalog dataset.
+5. **Unpivot Columns**: Unpivot a dataset that stores monthly sales data in multiple columns and convert it into a row-based structure.
+6. **Conditional Column Creation**: Add a new column to a dataset indicating whether an order is on time or delayed based on a comparison of expected and actual delivery dates.
+7. **Remove Outliers**: Identify and remove outliers from a dataset of product prices that are outside a defined threshold.
+8. **Create Custom Date Table**: Create a custom date table that includes fiscal year and month start/end dates.
+9. **Text Manipulation**: Split a full name column into separate columns for first name, middle name, and last name.
+10. **Filtering Invalid Data**: Filter out rows where values in key columns (e.g., sales, order numbers) are null or below a threshold.
+
+### **DAX (Data Analysis Expressions) Problems:**
+
+11. **Year-to-Date (YTD) Calculation**: Calculate the Year-to-Date (YTD) total sales for each product category.
+12. **Running Total**: Create a DAX measure that calculates a running total for monthly sales.
+13. **Forecasting Sales**: Build a DAX measure that predicts future sales based on historical trends using a simple linear regression.
+14. **Customer Retention Rate**: Calculate the customer retention rate by dividing the number of retained customers by the total number of customers.
+15. **Profit Margin Calculation**: Create a measure to calculate profit margin using revenue and cost of goods sold (COGS).
+16. **Sales Growth**: Calculate the percentage sales growth compared to the previous month/quarter/year.
+17. **Variance Analysis**: Calculate the variance between actual and budgeted sales for each department.
+18. **Segment Performance**: Create a DAX formula that calculates the total sales per customer segment (e.g., high-value, low-value).
+19. **Product Lifecycle Analysis**: Calculate the age of products based on the date of manufacture and segment them into categories like new, mid-life, or end-of-life.
+20. **Average Order Value (AOV)**: Create a DAX measure to calculate the average order value for each customer segment.
+
+21. **Customer Lifetime Value (CLV)**: Calculate the Customer Lifetime Value (CLV) based on historical purchasing behavior.
+22. **Discount Analysis**: Calculate the average discount percentage given on each product type and analyze its effect on sales.
+23. **Revenue by Channel**: Use DAX to calculate revenue by different sales channels (e.g., online, in-store).
+24. **Inventory Turnover**: Calculate the inventory turnover ratio using cost of goods sold (COGS) and average inventory.
+25. **Product Contribution Margin**: Calculate the contribution margin per product and identify which products contribute most to overall profit.
+26. **Churn Rate**: Create a DAX measure that calculates the churn rate by comparing the number of customers lost to the total customer base.
+27. **Profit by Region**: Use DAX to calculate the profit margin for each region and rank them accordingly.
+28. **Stockout Analysis**: Calculate the frequency of stockouts for products and identify high-risk items.
+29. **Cross-Selling Opportunities**: Identify cross-sell opportunities by calculating the percentage of customers who buy product B after purchasing product A.
+30. **Sales Trend by Product**: Use DAX to calculate and visualize the sales trend over time for top-selling products.
+
+### **Visualization Problems:**
+
+31. **Sales Dashboard**: Create a Power BI dashboard that visualizes total sales, sales by region, and top-performing products.
+32. **Customer Segmentation Visualization**: Build a visual representation (e.g., pie chart, bar chart) of customer segments based on total spend and frequency of purchases.
+33. **Profitability Analysis**: Design a visualization that shows the profitability by product category with a waterfall chart.
+34. **Market Share Analysis**: Visualize market share for each product or product category using a pie chart or bar chart.
+35. **Sales Distribution by Time**: Create a time-based visualization showing how sales are distributed across days of the week, months, or years.
+36. **Geospatial Data Visualization**: Create a map visualization showing sales performance by geographic region.
+37. **Dynamic KPI Dashboard**: Build an interactive KPI dashboard that allows users to filter and drill down into specific product categories, regions, and time periods.
+38. **Comparison Dashboard**: Create a dashboard that compares actual performance against targets or budgeted values for sales, revenue, and costs.
+39. **Sales Funnel Analysis**: Visualize the sales funnel stages, from leads to opportunities to closed deals, using a funnel chart.
+40. **Heat Map for Sales Performance**: Create a heat map to visualize product performance across various regions or customer demographics.
+
+41. **Employee Performance Analysis**: Build a dashboard that visualizes employee performance metrics, including sales, customer satisfaction, and targets achieved.
+42. **Customer Lifetime Value Visualization**: Create a chart or table that visualizes the Customer Lifetime Value (CLV) by customer segment or region.
+43. **Top N Product Performance**: Visualize the top 10 best-selling products in a given time period using a bar chart or Pareto chart.
+44. **Sales Conversion Rate**: Visualize the sales conversion rate (i.e., the percentage of leads that turn into sales) across different channels and regions.
+45. **Revenue Breakdown by Product**: Create a stacked bar chart showing the breakdown of revenue by product category and month.
+46. **Sales vs. Budget Visualization**: Create a visual representation that compares sales data with budgeted sales for the current period.
+47. **Supplier Performance Dashboard**: Visualize key performance metrics for suppliers, including lead times, defect rates, and on-time delivery percentages.
+48. **Expense Analysis**: Visualize operational expenses by category, such as marketing, production, and shipping, using a stacked bar chart.
+49. **Customer Purchase Frequency**: Build a chart that shows the frequency of purchases for each customer segment, highlighting loyal customers versus one-time buyers.
+50. **Product Demand Forecasting**: Use a line chart or area chart to visualize the forecasted demand for the next quarter based on historical sales data.
+
+---
+
+### **Tips for Working with Power BI:**
+
+- **Power Query**: Focus on data transformation techniques, like merging tables, unpivoting data, or creating calculated columns.
+- **DAX**: Pay attention to how you can leverage DAX functions for time intelligence (e.g., YTD, MTD), aggregation, and custom metrics.
+- **Visualizations**: Choose the most appropriate chart type for your data (e.g., pie charts for proportions, bar charts for comparisons, line charts for trends).
+- **Interactivity**: Add slicers, filters, and drill-through functionality to allow users to explore the data in a dynamic way.
+  
+Each of these problems can be the foundation for a Power BI project that covers data transformation, DAX calculations, and insightful visualizations, helping you to build a comprehensive and actionable analysis.
+
+problem statements with hints
+Here are 50 **proper problem statements** for Power BI projects, along with **hints** on how to approach each one. These are designed to cover a variety of tasks in Power BI, such as **visualization**, **Power Query**, and **DAX**. 
+
+---
+
+### **1. Clean a Sales Dataset with Missing Values**
+**Problem Statement**: The sales dataset has missing values in key columns (e.g., product names, sales amounts). Clean the data and make it ready for analysis.
+- **Hint**: Use Power Query's **Replace Values**, **Fill Down/Up**, or **Remove Missing Values** features to handle missing data. Consider replacing missing values with averages or default values.
+
+---
+
+### **2. Combine Multiple Data Sources into One Dataset**
+**Problem Statement**: You have sales data split across three CSV files: one for each region (North, South, East). Combine them into a single unified table.
+- **Hint**: Use Power Query’s **Append Queries** to combine multiple data tables. Ensure columns align across datasets before combining.
+
+---
+
+### **3. Create a Date Hierarchy from Transaction Data**
+**Problem Statement**: Your sales transaction dataset contains only a single "Order Date" column. Create a date hierarchy with Year, Quarter, Month, and Day.
+- **Hint**: Use Power Query to extract the Year, Quarter, Month, and Day columns, or create a **Date Table** in Power BI and link it to your sales data.
+
+---
+
+### **4. Transform Monthly Sales Data into a Long Format**
+**Problem Statement**: Your dataset has sales figures in columns for each month. Unpivot the dataset so that sales are represented in rows for each month.
+- **Hint**: Use Power Query's **Unpivot Columns** feature to transform the wide format (multiple months as columns) into a long format (one column for "Month" and another for "Sales").
+
+---
+
+### **5. Create a Custom Date Table for Fiscal Year Reporting**
+**Problem Statement**: You need to create a custom Date Table that starts from your fiscal year (e.g., July) instead of the calendar year.
+- **Hint**: Create a **Custom Date Table** using Power BI DAX, and adjust the fiscal year start by adding a custom column that defines the fiscal year period.
+
+---
+
+### **6. Identify Duplicate Entries in Customer Data**
+**Problem Statement**: Your customer dataset contains some duplicate customer entries (based on customer name and email). Remove the duplicates while retaining the necessary data.
+- **Hint**: Use Power Query’s **Remove Duplicates** feature on customer name and email fields, or use the **Group By** function to aggregate and remove duplicates.
+
+---
+
+### **7. Split a Full Name Column into First Name and Last Name**
+**Problem Statement**: A dataset contains a "Full Name" column. Split this column into two separate columns: "First Name" and "Last Name".
+- **Hint**: Use **Text.Split** or **Text.BeforeDelimiter** and **Text.AfterDelimiter** in Power Query to split the full name based on space or comma.
+
+---
+
+### **8. Combine Multiple Date Fields into One Date Column**
+**Problem Statement**: Your data has separate columns for "Start Date" and "End Date". Create a single column that contains both dates in a proper Date format.
+- **Hint**: In Power Query, use the **Merge Columns** function or create a custom column using **Date.From** and conditional logic to determine which date to use based on context.
+
+---
+
+### **9. Calculate Year-to-Date (YTD) Revenue**
+**Problem Statement**: Calculate the Year-to-Date (YTD) revenue for each product category.
+- **Hint**: Use **DAX**’s `TOTALYTD()` function on the Revenue column, with a calendar date column. Ensure that you have a valid **Date Table** related to the sales data.
+
+---
+
+### **10. Create a Running Total of Sales**
+**Problem Statement**: Calculate a running total of sales over time, updated for each month.
+- **Hint**: Use **DAX**’s `CALCULATE()` combined with `FILTER()` and `ALLSELECTED()` to create a running total. You can also use `TOTALMTD()` for month-to-date totals.
+
+---
+
+### **11. Calculate Customer Retention Rate**
+**Problem Statement**: Calculate the customer retention rate for the last quarter.
+- **Hint**: Define customer groups from the previous quarter and the current quarter using DAX. Calculate the percentage of customers retained from the previous period.
+
+---
+
+### **12. Calculate Profit Margin by Product**
+**Problem Statement**: Create a DAX measure that calculates the profit margin for each product, based on the formula: Profit Margin = (Revenue - Cost of Goods Sold) / Revenue.
+- **Hint**: Use `SUM()` to aggregate Revenue and Cost of Goods Sold, and then apply the profit margin formula directly in a new DAX measure.
+
+---
+
+### **13. Calculate Sales Growth YoY**
+**Problem Statement**: Calculate Year-on-Year (YoY) sales growth for each product.
+- **Hint**: Use DAX’s **SAMEPERIODLASTYEAR()** or **PARALLELPERIOD()** functions to get sales from the previous year and then calculate the growth percentage.
+
+---
+
+### **14. Analyze Sales Performance by Region**
+**Problem Statement**: Visualize total sales performance by region, comparing actual sales against target sales for the last 12 months.
+- **Hint**: Create two separate DAX measures—one for **Actual Sales** and one for **Target Sales**—and use a **Bar Chart** to visualize the data. Apply slicers to allow filtering by region and time.
+
+---
+
+### **15. Calculate Average Order Value (AOV)**
+**Problem Statement**: Calculate the Average Order Value (AOV) by dividing total revenue by the total number of orders.
+- **Hint**: Use DAX’s `SUM()` for total revenue and `COUNTROWS()` to count the number of orders. Create a new DAX measure that divides these two values.
+
+---
+
+### **16. Track Sales by Product Category**
+**Problem Statement**: Visualize sales data for different product categories over the last year, with a breakdown of revenue by region.
+- **Hint**: Create a **Stacked Bar Chart** where the x-axis represents time (months), the y-axis represents total revenue, and the stacked sections represent product categories.
+
+---
+
+### **17. Calculate Discount Effect on Sales**
+**Problem Statement**: Calculate the average discount percentage given across all products, and analyze its effect on total sales.
+- **Hint**: Use a DAX formula to calculate **Discount Percentage** as `(Original Price - Sale Price) / Original Price`. Create a visual comparing **Discount Percentage** vs. **Sales Revenue**.
+
+---
+
+### **18. Create a Profitability Heatmap**
+**Problem Statement**: Create a heatmap to display profitability by product and region.
+- **Hint**: Use a **Matrix Visual** in Power BI, with products on rows and regions on columns. Apply a color scale to the profit values to create a heatmap effect.
+
+---
+
+### **19. Visualize Sales Funnel Conversion Rates**
+**Problem Statement**: Visualize the sales funnel with conversion rates between stages (e.g., Lead → Opportunity → Closed Sale).
+- **Hint**: Use a **Funnel Chart** to visualize each stage’s conversion rate. Use DAX to calculate conversion rates as a percentage between each stage.
+
+---
+
+### **20. Sales vs. Budget Comparison**
+**Problem Statement**: Compare actual sales with budgeted sales over time, and visualize the variance.
+- **Hint**: Create two DAX measures for **Actual Sales** and **Budgeted Sales**. Use a **Line Chart** to compare them and display the variance in a separate **Bar Chart**.
+
+---
+
+### **21. Monthly Sales Trend Analysis**
+**Problem Statement**: Analyze monthly sales trends for the past two years, highlighting seasonal peaks.
+- **Hint**: Use a **Line Chart** to visualize sales trends over time. Use a slicer to filter the data by year or quarter. You can also apply a **Seasonal Decomposition** to analyze seasonality.
+
+---
+
+### **22. Create a Top N Product List**
+**Problem Statement**: Create a visual showing the top 10 best-selling products by revenue.
+- **Hint**: Use the **Top N filter** in a **Bar Chart** or **Table** to display the top products, ordered by sales revenue.
+
+---
+
+### **23. Analyze Return Rate by Product Category**
+**Problem Statement**: Calculate the return rate for each product category and visualize the results.
+- **Hint**: Create a DAX measure for **Return Rate** as the number of returns divided by total sales. Use a **Bar Chart** to display return rates by category.
+
+---
+
+### **24. Analyze Customer Satisfaction by Product**
+**Problem Statement**: Visualize customer satisfaction scores for different products and categories.
+- **Hint**: Use a **Bar Chart** or **Column Chart** to show customer satisfaction ratings for each product category. Consider using a **Slicer** for filtering by region or time.
+
+---
+
+### **25. Calculate Monthly Sales Variance**
+**Problem Statement**: Calculate the variance in sales between the current month and the previous month, for each product.
+- **Hint**: Use **DAX** to calculate the difference between the sales of the current month and the previous month with functions like `PREVIOUSMONTH()`.
+
+---
+
+### **26. Analyze Seasonal Sales Performance**
+**Problem Statement**: Visualize how sales performance varies across different seasons (Winter, Spring, Summer, Fall).
+- **Hint**: Group data by season using a custom column, and use a **Clustered Bar Chart** to compare seasonal sales performance.
+
+---
+
+### **27. Profit by Customer Segment**
+**Problem Statement**: Visual
