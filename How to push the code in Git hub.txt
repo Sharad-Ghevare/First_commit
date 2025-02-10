@@ -21,3 +21,5 @@ git commit -m "second commit"
 git push origin master
 
 https://github.com/Sharad-Ghevare/First_commit.git
+
+push clone comment

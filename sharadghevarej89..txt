@@ -1,0 +1,17 @@
+sharadghevarej89.
+https://www.atlassian.com/software/jira/download/data-center
+https://sharadghevarej89.atlassian.net/
+
+
+dim_customers;
+dim_date;
+fact_orders_aggregate;
+dim_products;
+fact_order_lines;
+dim_targets_orders;
+
+select dim_customers.*, dim_date.*, fact_orders_aggregate.*, dim_products.*, fact_order_lines.*, dim_targets_orders.*
+
+=IF(F6="Yes",IF(H6="",NOW(),H6),"")
+
+https://docs.google.com/spreadsheets/d/1sLSpJyejpwpHaVWHpPDLY19cO1hPzgeo/edit?usp=sharing&ouid=107130010287263217144&rtpof=true&sd=true
